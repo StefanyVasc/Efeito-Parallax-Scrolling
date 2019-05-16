@@ -1,0 +1,31 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background: #f9f9f9;
+  font-size: 24px;
+  padding: 25px;
+  text-align: justify;
+  font-weight: bold;
+}
+.parallax {
+  padding: 100px 35px;
+  background: transparent;
+}
+.info {
+  z-index: 2;
+  position: relative;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
+}
+
+#info2 {
+  text-shadow: 0 0 0.2em #b3f, 0 0 0.2em #b3f, 0 0 0.2em #b3f;
+}
+
+#info3 {
+  color: white;
+  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;
+}
