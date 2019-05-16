@@ -11,18 +11,20 @@ esse arquivo deve está na raiz do projeto.
 
 2. Instalação e linkagem HTML e CSS. 
   2.1 HTML: Dentro do seu arquivo index.html
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/path/to/parallax.js"></script>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/path/to/parallax.js"></script>
+  
   2.2 CSS: Dentro do seu arquivo style.css
-  .parallax-window {
-    min-height: 400px;
-    background: transparent;
-  }
+    .parallax-window {
+      min-height: 400px;
+      background: transparent;
+    }
   
  3. Div's especificas para que o parallax funcione
  
- <div class="parallax-window" data-parallax="scroll" data-image-src="/path/to/image.jpg"></div>
- 
+   <div class="parallax-window" data-parallax="scroll" data-image-src="/path/to/image.jpg"></div>
+
  seu arquivo deve conter essas Divs, você pode colocar tags dentro dessas divs.
  
  
